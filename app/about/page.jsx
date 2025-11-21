@@ -2,6 +2,11 @@
 import { useState } from 'react';
 import { IoArrowBack, IoRocketOutline, IoHeartOutline, IoCodeSlashOutline, IoMailOutline, IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { LuTarget, LuZap, LuShield, LuLightbulb } from "react-icons/lu";
+import { FaProjectDiagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaArtstation } from "react-icons/fa";
+
+
 
 export default function About() {
   const [activeTab, setActiveTab] = useState('story');
@@ -533,17 +538,17 @@ export default function About() {
               Hi! I'm the person behind this project. I built this productivity platform from the ground up—from design to development to deployment. It's been an incredible learning experience and labor of love.
             </p>
             <div className="social-links">
-              <a href="mailto:hello@example.com" className="social-link">
+              <a href="mailto:gurshaan1124@gmail.com" className="social-link">
                 <IoMailOutline size={20} /> Get in Touch
               </a>
-              <a href="https://github.com" className="social-link" target="_blank" rel="noopener noreferrer">
-                <IoLogoGithub size={20} /> GitHub
+              <a href="https://www.artstation.com/gurshh" className="social-link" target="_blank" rel="noopener noreferrer">
+                <FaArtstation size={20} /> Artstation
               </a>
-              <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
-                <IoLogoTwitter size={20} /> Twitter
+              <a href="https://www.instagram.com/gurshhhh_" className="social-link" target="_blank" rel="noopener noreferrer">
+                <FaInstagram size={20} /> Instagram
               </a>
-              <a href="https://linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer">
-                <IoLogoLinkedin size={20} /> LinkedIn
+              <a href="https://gurshaangill.vercel.app" className="social-link" target="_blank" rel="noopener noreferrer">
+                <FaProjectDiagram size={20} /> Portfolio
               </a>
             </div>
           </div>

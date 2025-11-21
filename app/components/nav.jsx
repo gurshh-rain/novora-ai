@@ -180,7 +180,7 @@ const Nav = () => {
         <div className="col left">
           <div className="nav-item">
             <Link href="/" onClick={handleNavigation("/")}>
-              <img src="novora-logo.png" className="nav-img" alt="Novora Logo" />
+              <img src="novora-logo.png" className="nav-img"/>
               <HoverScrollText>Novora</HoverScrollText>
             </Link>
           </div>

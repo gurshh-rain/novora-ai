@@ -86,7 +86,7 @@ export default function Analytics() {
 
         .page-header p {
           font-size: 1.2em;
-          color: #6b7280;
+          color: #1e1e1eff;
         }
 
         .time-selector {
@@ -137,9 +137,9 @@ export default function Analytics() {
         }
 
         .stat-icon {
-          width: 56px;
-          height: 56px;
-          border-radius: 12px;
+          width: 50px;
+          height: 40px;
+          border-radius: 6px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -153,14 +153,14 @@ export default function Analytics() {
         .stat-icon.orange { background: #fed7aa; color: #9a3412; }
 
         .stat-value {
-          font-size: 2.5em;
+          font-size: 2em;
           font-weight: 700;
           color: #000;
           margin-bottom: 8px;
         }
 
         .stat-label {
-          font-size: 1em;
+          font-size: 0.8em;
           color: #6b7280;
           font-weight: 500;
         }
@@ -210,10 +210,8 @@ export default function Analytics() {
 
         .insight-item {
           padding: 16px;
-          background: #f9fafb;
           border-radius: 12px;
           margin-bottom: 16px;
-          border-left: 4px solid #10b981;
         }
 
         .insight-item:last-child {
