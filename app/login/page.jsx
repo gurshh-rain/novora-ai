@@ -779,22 +779,6 @@ export default function LoginPage() {
                 <FaGoogle />
                 Continue with Google
               </button>
-              <button 
-                className="social-btn" 
-                onClick={() => handleSocialLogin('apple')}
-                disabled={loading}
-              >
-                <FaApple />
-                Continue with Apple
-              </button>
-              <button 
-                className="social-btn" 
-                onClick={() => handleSocialLogin('github')}
-                disabled={loading}
-              >
-                <FaGithub />
-                Continue with GitHub
-              </button>
             </div>
 
             <div className="divider">OR</div>
