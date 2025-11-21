@@ -189,7 +189,7 @@ const Nav = () => {
         {/* Center */}
         <div className="col center">
           <div className="nav-item">
-            <Link href="/ai">
+            <Link href="/dashboard">
               <HoverScrollText>Dashboard</HoverScrollText>
             </Link>
           </div>
@@ -199,8 +199,8 @@ const Nav = () => {
             </Link>
           </div>
           <div className="nav-item">
-            <Link href="/enterprise">
-              <HoverScrollText>Enterprise</HoverScrollText>
+            <Link href="/about">
+              <HoverScrollText>About</HoverScrollText>
             </Link>
           </div>
           <div className="nav-item">
@@ -226,7 +226,6 @@ const Nav = () => {
                 <div className="user-avatar">
                   {username?.[0] || 'U'}
                 </div>
-                <HoverScrollText>{username}</HoverScrollText>
               </button>
               <div className={`dropdown-menu ${showDropdown ? 'show' : ''}`}>
                 <div className="dropdown-item">

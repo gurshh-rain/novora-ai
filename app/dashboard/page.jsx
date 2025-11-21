@@ -285,7 +285,7 @@ export default function Dashboard() {
               <div className="card-icon"><IoAnalyticsOutline /></div>
               <h3>Analytics</h3>
               <p>Track your productivity metrics and see how you're improving over time.</p>
-              <a href="#" className="card-link">
+              <a href="/analytics" className="card-link">
                 View Analytics →
               </a>
             </div>
@@ -294,7 +294,7 @@ export default function Dashboard() {
               <div className="card-icon"><LuGoal /></div>
               <h3>Goals</h3>
               <p>Set and achieve your productivity goals with AI-powered insights.</p>
-              <a href="#" className="card-link">
+              <a href="/goals" className="card-link">
                 Manage Goals →
               </a>
             </div>
@@ -302,8 +302,9 @@ export default function Dashboard() {
             <div className="card">
               <div className="card-icon"><RxLightningBolt /></div>
               <h3>Quick Actions</h3>
-              <p>Access your most-used features and shortcuts in one place.</p>
-              <a href="#" className="card-link">
+              <p>Coming soon! Access your most-used features and shortcuts in one place.
+              </p>
+              <a href="/quick-actions" className="card-link">
                 View Actions →
               </a>
             </div>
