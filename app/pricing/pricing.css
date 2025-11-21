@@ -1,0 +1,112 @@
+.pricing-container {
+    min-height: 100vh;
+    background-color: #fff; /* white background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    letter-spacing: -0.03em;
+}
+
+.pricing-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #000;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    width: 100%;
+    max-width: 1700px; 
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .pricing-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    transition: transform 0.3s ease;
+
+    width: 90%;        /* wider cards */
+    margin: 0 auto;
+    height: 100%;      /* take full height */
+}
+
+.pricing-card.highlighted {
+    border: 3px solid #000;
+    background-color: #e0e0e0;
+}
+
+.pricing-card h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.pricing-card p.price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.pricing-card ul {
+    flex: 1; /* takes remaining space to fill height */
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* spread features evenly */
+}
+
+.pricing-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.pricing-card ul li .not-included {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.pricing-card button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    transition: all 0.2s ease;
+    margin-top: auto; /* stick button to bottom */
+}
+
+.pricing-card.highlighted button {
+    background-color: #000;
+    color: #fff;
+}
+
+.pricing-card button:hover {
+    background-color: #000;
+    color: #fff;
+}

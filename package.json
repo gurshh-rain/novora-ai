@@ -1,26 +1,47 @@
 {
-  "name": "novora",
-  "version": "0.1.0",
-  "private": true,
+  "name": "",
+  "version": "1.0.0",
+  "description": "AI-powered goal planning desktop app",
+  "main": "main.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "export": "next export",
+    "electron": "electron .",
+    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && NODE_ENV=development electron .\"",
+    "electron-build": "npm run build && npm run export && electron-builder"
   },
   "dependencies": {
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.84.0",
+    "@tailwindcss/postcss": "^4.1.17",
+    "autoprefixer": "^10.4.21",
+    "next": "latest",
+    "next-auth": "^4.24.13",
+    "postcss": "^8.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.1"
+    "@types/react": "19.2.2",
+    "concurrently": "^8.0.0",
+    "electron": "latest",
+    "electron-builder": "^24.0.0",
+    "wait-on": "^7.0.0"
+  },
+  "build": {
+    "appId": "com.aigoalplanner.app",
+    "files": [
+      "out/**/*",
+      "main.js",
+      "preload.js",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
   }
 }

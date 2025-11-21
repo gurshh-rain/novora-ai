@@ -1,0 +1,58 @@
+.leftbar {
+    justify-self: center;
+}
+.blog-title {
+    position: relative;
+    top: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    letter-spacing: -0.05em;
+}
+
+.blog-title p {
+    margin-top: 1vh;
+    font-size: 15px;
+    width: 23vw;
+    letter-spacing: -0.04px;
+}
+
+.article {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 35vh;
+    width: 52vw;
+    height: 40%;
+    border-radius: 20px;
+    background-color: rgb(8, 8, 8);
+    padding: 3em 2em;
+    
+}
+.article p {
+    color: white;
+    font-weight: 400;
+}
+.article h2 {
+    padding-top: 1em;
+    color: white;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: -0.03em;
+}
+
+.article button {
+    margin-top: 6vh;
+    width: 10vw;
+    height: 20%;
+    padding: 0.7em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 600;
+}
+button:hover {
+    cursor: pointer;
+}
