@@ -69,10 +69,12 @@ export default function Home() {
           <img src="windows-logo.png" className="download-img"></img>
             <HoverScrollText>Download for Windows</HoverScrollText>
         </button>
+        <a href="/Novora Productivity-1.0.0-mac.zip" download>
         <button>
             <img src="apple-logo.png" className="apple-img"></img>
             <HoverScrollText>Download for macOS</HoverScrollText> 
         </button>
+        </a>
         </div>
     </div>
     <div className="cred">
