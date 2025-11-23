@@ -15,7 +15,7 @@ const Blog = () => {
             excerpt: "Discover scientifically-proven habits that top performers use daily to maximize their output and maintain focus.",
             category: "Productivity",
             readTime: "12 min read",
-            author: "Sarah Chen",
+            author: "Gurshaan Gill",
             featured: true
         },
         {

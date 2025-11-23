@@ -65,6 +65,7 @@ export default function Home() {
         />
       </div>
       <div className="download-copy">
+        
         <button>
           <img src="windows-logo.png" className="download-img"></img>
             <HoverScrollText>Download for Windows</HoverScrollText>
@@ -75,12 +76,17 @@ export default function Home() {
         </button>
         </div>
     </div>
+    <div className="app-description">
+      <h1>Real-time AI analysis that transforms usage data into productivity metrics.</h1>
+    </div>
     <div className="cred">
       <h2>Trusted by <strong>97,000+ Devs</strong></h2>
     </div>
-
+    
     <CardsSection />
+    <hr></hr>
     <AdditionalSections />
+
 
     </>
 

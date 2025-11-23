@@ -114,13 +114,28 @@ span {
 
 .cred {
   position: relative;
-  top: 15vh;
+  top: 11vh;
   font-weight: 600;
   font-size: 1.2em;
   width: fit-content;
   margin: 0 auto;
 }
 
+.app-description {
+  position: relative;
+  font-weight: 700;
+  top: 7vh;
+  font-size: 1.45em;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+hr{
+  position: relative;
+  border-color: #c3c3c3;
+  margin: 0 auto;
+  width: 75%;
+}
 
 
 
