@@ -114,11 +114,13 @@ span {
 
 .cred {
   position: relative;
-  justify-self: center;
   top: 15vh;
   font-weight: 600;
   font-size: 1.2em;
+  width: fit-content;
+  margin: 0 auto;
 }
+
 
 
 
