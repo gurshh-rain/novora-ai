@@ -70,10 +70,14 @@ export default function Home() {
           <img src="windows-logo.png" className="download-img"></img>
             <HoverScrollText>Download for Windows</HoverScrollText>
         </button>
-        <button>
-            <img src="apple-logo.png" className="apple-img"></img>
-            <HoverScrollText>Download for macOS</HoverScrollText> 
-        </button>
+        <a href="/Novora%20Productivity-1.0.0-mac.zip" download style={{ textDecoration: 'none' }}>
+          <button>
+            <img src="apple-logo.png" className="apple-img" alt="Apple logo" />
+            <HoverScrollText>Download for macOS</HoverScrollText>
+          </button>
+        </a>
+
+
         </div>
     </div>
     <div className="app-description">
